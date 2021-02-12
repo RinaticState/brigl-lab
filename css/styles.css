@@ -5,6 +5,7 @@
     text-align: center;
 }
 
+/* Style BRIGL LAB */
 .header-h3 {
     font-family: 'Rubik', sans-serif;
     color: #393b44;
@@ -12,15 +13,66 @@
     letter-spacing: 0.8rem;
 }
 
-.img-logo {
-    width: 30%;
+/* Make the BWH/HMS Logo scale with different device sizes */
+
+/* Smaller phones */
+@media only screen and (max-width: 600px) {
+  .header-h3 {
+      font-family: 'Rubik', sans-serif;
+      color: #393b44;
+      font-size: 3.5rem;
+      letter-spacing: 0.5rem;
+  }
+  .img-logo {
+      width: 70%;
+  }
 }
 
-.header-h4 {
-    font-family: 'Rubik', sans-serif;
-    color: #8d93ab;
-    font-size: 1rem;
-    font-weight: 300;
+/* Small devices, tablets, larger phones */
+@media only screen and (min-width: 600px){
+  .header-h3 {
+      font-family: 'Rubik', sans-serif;
+      color: #393b44;
+      font-size: 3.5rem;
+      letter-spacing: 0.5rem;
+  }
+  .img-logo {
+      width: 60%;
+  }
+}
+
+/* Tablets On Landscape */
+@media only screen and (min-width: 768px) {
+  .img-logo {
+      width: 50%;
+  }
+}
+
+/* Larger Devices */
+@media only screen and (min-width: 992px) {
+  .img-logo {
+      width: 40%;
+  }
+}
+
+/* Extra  large devices */
+@media only screen and (min-width: 1200px) {
+  .img-logo {
+      width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .img-logo {
+      width: 30%;
+  }
+}
+
+/* Ultrawide Support ! */
+@media only screen and (min-width: 1400px) {
+  .img-logo {
+      width: 20%;
+  }
 }
 
 /* Navigation Bar */
