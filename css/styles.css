@@ -12,6 +12,10 @@
     letter-spacing: 0.8rem;
 }
 
+.img-logo {
+    width: 40%;
+}
+
 .header-h4 {
     font-family: 'Rubik', sans-serif;
     color: #8d93ab;
@@ -40,7 +44,7 @@
 /* Introduction Section  */
 
 .intro {
-    padding: 3% 17% 1%;
+    padding: 2% 17% 1%;
 }
 
 .intro-h6 {
