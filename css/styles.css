@@ -124,3 +124,54 @@
     color: #3D3D46;
     font-weight: 600;
 }
+
+/* Research Page */
+.research-section-cd1 {
+  padding: 1% 25%;
+}
+
+.research-h3 {
+  font-family: 'Rubik', sans-serif;
+  color: #3D3D46;
+  text-align: center;
+}
+
+.p-research {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.20rem;
+  font-weight: 400;
+}
+
+.img-research {
+  display: block;
+  margin: 0 auto;
+}
+
+.img-cd1 {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.research-section-nkt {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.research-section-invariants {
+  padding: 1% 25%;
+}
+
+.img-invariants {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.research-section-dnkt {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.img-dnkt {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
