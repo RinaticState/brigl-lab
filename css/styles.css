@@ -58,20 +58,20 @@
 /* Extra  large devices */
 @media only screen and (min-width: 1200px) {
   .img-logo {
-      width: 40%;
+      width: 35%;
   }
 }
 
 @media only screen and (min-width: 1400px) {
   .img-logo {
-      width: 30%;
+      width: 25%;
   }
 }
 
 /* Ultrawide Support ! */
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 2056px) {
   .img-logo {
-      width: 20%;
+      width: 15%;
   }
 }
 
@@ -86,11 +86,7 @@
 /* Carousel Section */
 
 .carousel-section {
-    padding: 2% 7%;
-}
-
-.carousel-item {
-    height: 500px;
+    padding: 2% 14% 1%;
 }
 
 /* Introduction Section  */
