@@ -13,8 +13,6 @@
     letter-spacing: 0.8rem;
 }
 
-/* Make the BWH/HMS Logo scale with different device sizes */
-
 /* Smaller phones */
 @media only screen and (max-width: 600px) {
   .header-h3 {
@@ -25,53 +23,6 @@
   }
   .img-logo {
       width: 70%;
-  }
-}
-
-/* Small devices, tablets, larger phones */
-@media only screen and (min-width: 600px){
-  .header-h3 {
-      font-family: 'Rubik', sans-serif;
-      color: #393b44;
-      font-size: 3.5rem;
-      letter-spacing: 0.5rem;
-  }
-  .img-logo {
-      width: 60%;
-  }
-}
-
-/* Tablets On Landscape */
-@media only screen and (min-width: 768px) {
-  .img-logo {
-      width: 50%;
-  }
-}
-
-/* Larger Devices */
-@media only screen and (min-width: 992px) {
-  .img-logo {
-      width: 40%;
-  }
-}
-
-/* Extra  large devices */
-@media only screen and (min-width: 1200px) {
-  .img-logo {
-      width: 35%;
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-  .img-logo {
-      width: 25%;
-  }
-}
-
-/* Ultrawide Support ! */
-@media only screen and (min-width: 2056px) {
-  .img-logo {
-      width: 15%;
   }
 }
 
@@ -127,7 +78,7 @@
 
 /* Research Page */
 .research-section-cd1 {
-  padding: 1% 25%;
+  padding: 1% 17%;
 }
 
 .research-h3 {
@@ -144,7 +95,7 @@
 
 .img-research {
   display: block;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .img-cd1 {
@@ -153,12 +104,12 @@
 }
 
 .research-section-nkt {
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 17%;
+  padding-right: 17%;
 }
 
 .research-section-invariants {
-  padding: 1% 25%;
+  padding: 1% 17%;
 }
 
 .img-invariants {
@@ -167,11 +118,60 @@
 }
 
 .research-section-dnkt {
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 17%;
+  padding-right: 17%;
 }
 
 .img-dnkt {
   margin-top: 35px;
   margin-bottom: 30px;
+}
+
+/* Scale to different device sizes */
+
+/* Small devices, tablets, larger phones */
+@media only screen and (min-width: 600px){
+  .header-h3 {
+      font-family: 'Rubik', sans-serif;
+      color: #393b44;
+      font-size: 3.5rem;
+      letter-spacing: 0.5rem;
+  }
+  .img-logo {
+      width: 60%;
+  }
+}
+
+/* Tablets On Landscape */
+@media only screen and (min-width: 768px) {
+  .img-logo {
+      width: 50%;
+  }
+}
+
+/* Larger Devices */
+@media only screen and (min-width: 992px) {
+  .img-logo {
+      width: 40%;
+  }
+}
+
+/* Extra  large devices */
+@media only screen and (min-width: 1200px) {
+  .img-logo {
+      width: 35%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .img-logo {
+      width: 25%;
+  }
+}
+
+/* Ultrawide Support ! */
+@media only screen and (min-width: 2056px) {
+  .img-logo {
+      width: 15%;
+  }
 }
