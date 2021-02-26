@@ -13,19 +13,6 @@
     letter-spacing: 0.8rem;
 }
 
-/* Smaller phones */
-@media only screen and (max-width: 600px) {
-  .header-h3 {
-      font-family: 'Rubik', sans-serif;
-      color: #393b44;
-      font-size: 3.5rem;
-      letter-spacing: 0.5rem;
-  }
-  .img-logo {
-      width: 70%;
-  }
-}
-
 /* Navigation Bar */
 
 .navbar-custom {
@@ -127,7 +114,55 @@
   margin-bottom: 30px;
 }
 
+.p-dnkt {
+  padding-bottom: 3%;
+}
+
+/* People Page */
+
+.manfred-bio {
+  padding: 1.5% 17%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.manfred-title {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
+  color: #3D3D46;
+}
+
+.p-bio {
+  margin-top: 15px;
+  margin-left: 25px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.20rem;
+  font-weight: 400;
+}
+
+.hr-bio {
+  margin: 30px auto 30px;
+  width: 10%;
+  border-top: 5px dotted;
+  background-color: transparent;
+}
+
 /* Scale to different device sizes */
+
+/* Smaller phones */
+@media only screen and (max-width: 600px) {
+  .header-h3 {
+      font-family: 'Rubik', sans-serif;
+      color: #393b44;
+      font-size: 3.5rem;
+      letter-spacing: 0.5rem;
+  }
+  .img-logo {
+      width: 70%;
+  }
+}
 
 /* Small devices, tablets, larger phones */
 @media only screen and (min-width: 600px){
