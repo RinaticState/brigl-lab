@@ -143,10 +143,14 @@
 }
 
 .hr-bio {
-  margin: 30px auto 30px;
+  margin: 20px auto 30px;
   width: 10%;
   border-top: 5px dotted;
   background-color: transparent;
+}
+
+.members-bio {
+  padding: 1% 17%;
 }
 
 /* Scale to different device sizes */
