@@ -121,7 +121,7 @@
 /* People Page */
 
 .manfred-bio {
-  padding: 1.25% 17%;
+  padding: 1.75% 17%;
 }
 
 .manfred-title {
@@ -132,6 +132,7 @@
 
 .manfred-p {
   font-family: 'Work Sans', sans-serif;
+  font-size: 1.1rem;
 }
 
 .manfred-p-points {
@@ -146,7 +147,17 @@
 }
 
 .members-bio {
-  padding: 1% 17%;
+  padding: 1% 17% 4%;
+}
+
+.member-title {
+  font-family: 'Rubik', sans-serif;
+  color: #3D3D46;
+  font-weight: 500;
+}
+
+.member-p {
+  font-family: 'Work Sans', sans-serif;
 }
 
 /* Scale to different device sizes */
@@ -161,6 +172,13 @@
   }
   .img-logo {
       width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .members-img {
+    width: 50%;
+    margin: auto;
   }
 }
 
