@@ -1,66 +1,64 @@
 /* Header Section */
 .header {
-    background-color: #eeeeee;
-    padding: 3% 12%;
-    text-align: center;
+  background-color: #eeeeee;
+  padding: 3% 12%;
+  text-align: center;
 }
 
 /* Style BRIGL LAB */
 .header-h3 {
-    font-family: 'Rubik', sans-serif;
-    color: #393b44;
-    font-size: 4.5rem;
-    letter-spacing: 0.8rem;
+  font-family: 'Rubik', sans-serif;
+  color: #393b44;
+  font-size: 4.5rem;
+  letter-spacing: 0.8rem;
 }
 
 /* Navigation Bar */
-
 .navbar-custom {
-    margin-top: 30px;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.25rem;
+  margin-top: 30px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.25rem;
 }
 
 /* Carousel Section */
-
 .carousel-section {
-    padding: 2% 14% 1%;
+  padding: 2% 14% 1%;
 }
 
 /* Introduction Section  */
-
 .intro {
-    padding: 2% 17% 1%;
+  padding: 2% 17% 1%;
 }
 
 .intro-h6 {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.25rem;
-    font-weight: 400;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 
 /* Recent News Section */
 .news-section {
-    padding: 2% 17%;
+  padding: 2% 17%;
 }
+
 .h3-news {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
-    color: #3C4256;
-    text-align: center;
-    margin-bottom: 3%;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: #3C4256;
+  text-align: center;
+  margin-bottom: 3%;
 }
 
 .list-news {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.20rem;
-    font-weight: 400;
-    margin-bottom: 2%;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.20rem;
+  font-weight: 400;
+  margin-bottom: 2%;
 }
 
 .news-date {
-    color: #3D3D46;
-    font-weight: 600;
+  color: #3D3D46;
+  font-weight: 600;
 }
 
 /* Research Page */
@@ -119,7 +117,6 @@
 }
 
 /* People Page */
-
 .manfred-bio {
   padding: 1.75% 17%;
 }
@@ -147,7 +144,14 @@
 }
 
 .members-bio {
-  padding: 1% 17% 4%;
+  padding: 1% 17% 3%;
+}
+
+.members-h3 {
+  font-family: 'Rubik', sans-serif;
+  color: #3D3D46;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
 .member-title {
@@ -160,18 +164,22 @@
   font-family: 'Work Sans', sans-serif;
 }
 
-/* Scale to different device sizes */
+.alumni-bio {
+  padding: 1% 17% 4%;
+}
 
+/* Scale to different device sizes */
 /* Smaller phones */
 @media only screen and (max-width: 600px) {
   .header-h3 {
-      font-family: 'Rubik', sans-serif;
-      color: #393b44;
-      font-size: 3.5rem;
-      letter-spacing: 0.5rem;
+    font-family: 'Rubik', sans-serif;
+    color: #393b44;
+    font-size: 3.5rem;
+    letter-spacing: 0.5rem;
   }
+
   .img-logo {
-      width: 70%;
+    width: 70%;
   }
 }
 
@@ -180,51 +188,75 @@
     width: 50%;
     margin: auto;
   }
+
+  /* get rid of the cards border */
+  .kard {
+    border: 0;
+  }
+
+  .manfred-bio {
+    text-align: center;
+  }
+
+  .members-h3 {
+    padding-bottom: 6%;
+  }
+
+  .members-bio {
+    text-align: center;
+    padding-bottom: 1%;
+  }
+
+  .alumni-bio {
+    text-align: center;
+    padding-bottom: 3%;
+  }
 }
 
 /* Small devices, tablets, larger phones */
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) {
   .header-h3 {
-      font-family: 'Rubik', sans-serif;
-      color: #393b44;
-      font-size: 3.5rem;
-      letter-spacing: 0.5rem;
+    font-family: 'Rubik', sans-serif;
+    color: #393b44;
+    font-size: 3.5rem;
+    letter-spacing: 0.5rem;
   }
+
   .img-logo {
-      width: 60%;
+    width: 60%;
   }
 }
 
 /* Tablets On Landscape */
 @media only screen and (min-width: 768px) {
   .img-logo {
-      width: 50%;
+    width: 50%;
   }
 }
 
 /* Larger Devices */
 @media only screen and (min-width: 992px) {
   .img-logo {
-      width: 40%;
+    width: 40%;
   }
 }
 
 /* Extra  large devices */
 @media only screen and (min-width: 1200px) {
   .img-logo {
-      width: 35%;
+    width: 35%;
   }
 }
 
 @media only screen and (min-width: 1400px) {
   .img-logo {
-      width: 25%;
+    width: 25%;
   }
 }
 
 /* Ultrawide Support ! */
 @media only screen and (min-width: 2056px) {
   .img-logo {
-      width: 15%;
+    width: 15%;
   }
 }

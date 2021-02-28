@@ -1,3 +1,4 @@
 # brigl-lab
-Why: Dr Brigl's Lab website is outdated and rather unaethestically pleasing to look at. It was made using a Wordpress template. I wanted to apply what I've learned in Dr Angela Wu's web development course to something practical.
-Bootstrap Framework, my own HTML and CSS.
+Why: Dr Brigl's website that's currently hosted on the BWH server needs a facelift from the generic Wordpress Template. I wanted apply what I learned from Dr Angela Wu's web development course. This has been my first real, serious project !
+Made with the Bootstrap Framework, my own HTML and CSS.
+Also, access to all the papers :)
