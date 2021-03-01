@@ -168,6 +168,24 @@
   padding: 1% 17% 4%;
 }
 
+/* Publications Page */
+.publications-section {
+  padding: 1.5% 17% 3%;
+}
+
+.pubs-title {
+  font-family: 'Rubik', sans-serif;
+  color: #3D3D46;
+}
+
+.pubs-text {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.kards-row {
+  padding-bottom: 1%;
+}
+
 /* Scale to different device sizes */
 /* Smaller phones */
 @media only screen and (max-width: 600px) {
