@@ -183,8 +183,21 @@
 }
 
 /* Contact Page */
-.contact-manfred-section, .contact-lab-section, .map-section {
-  padding: 1% 17%;
+.contact-container, .map-container {
+  padding: 1% 17% 3%;
+}
+
+.contact-h3 {
+  font-family: 'Rubik', sans-serif;
+  color: #3D3D46;
+}
+
+.contact-p {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.map-responsive {
+  text-align: center;
 }
 
 /* Scale to different device sizes */
@@ -199,15 +212,6 @@
 
   .img-logo {
     width: 70%;
-  }
-
-  .contact-map {
-    width: 400px; 
-    height: 200px;
-  }
-
-  .contact-img {
-    width: 75%;
   }
 }
 
@@ -241,10 +245,22 @@
   }
 }
 
+/* Let's make things even more responsive */
+
+/* deal with weird img-fluid and cards conflicts */
+
 @media only screen and (min-width: 768px) and (max-width: 837px) {
   .img-manfred {
+    margin-top: 25px;
     width: 215px;
     height: 272px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-img {
+    width: 700px;
+    height: 100%;
   }
 }
 
@@ -260,27 +276,11 @@
   .img-logo {
     width: 60%;
   }
-
-  .contact-map {
-    width: 450px; 
-    height: 220px;
-  }
-  .contact-img {
-    width: 75%;
-  }
 }
 
 /* Tablets On Landscape */
 @media only screen and (min-width: 768px) {
   .img-logo {
-    width: 50%;
-  }
-  .contact-map {
-    width: 550px; 
-    height: 220px;
-  }
-
-  .contact-img {
     width: 50%;
   }
 }
@@ -289,13 +289,6 @@
 @media only screen and (min-width: 992px) {
   .img-logo {
     width: 40%;
-  }
-  .contact-map {
-    width: 650px; 
-    height: 320px;
-  }
-  .contact-img {
-    width: 50%;
   }
 }
 
