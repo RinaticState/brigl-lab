@@ -50,6 +50,10 @@
   font-weight: 400;
 }
 
+.news-section {
+  padding-bottom: 3%;
+}
+
 /* Recent News Section */
 
 .h3-news {
