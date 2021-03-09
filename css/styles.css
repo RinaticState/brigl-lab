@@ -19,39 +19,46 @@
   font-family: 'Work Sans', sans-serif;
 }
 
+/* General Refactoring */
+.h3-news, .research-h3, .manfred-title, .members-h3, .member-title, .pubs-title, .contact-h3 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: #3C4256;
+}
+
+.intro-h6, .list-news, .p-research, .manfred-p, .member-p, .pubs-text, .contact-p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+}
+
 /* Carousel Section */
 .carousel-section {
   padding: 2% 14% 1%;
 }
 
 /* Introduction Section  */
+.intro, .news-section {
+  padding: 2% 17%;
+}
+
 .intro {
-  padding: 2% 17% 1%;
+  padding-bottom: 1%;
 }
 
 .intro-h6 {
-  font-family: 'Work Sans', sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
 }
 
 /* Recent News Section */
-.news-section {
-  padding: 2% 17%;
-}
 
 .h3-news {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 500;
-  color: #3C4256;
   text-align: center;
   margin-bottom: 3%;
 }
 
 .list-news {
-  font-family: 'Work Sans', sans-serif;
   font-size: 1.20rem;
-  font-weight: 400;
   margin-bottom: 2%;
 }
 
@@ -70,15 +77,11 @@
 }
 
 .research-h3 {
-  font-family: 'Rubik', sans-serif;
-  color: #3D3D46;
   text-align: center;
 }
 
 .p-research {
-  font-family: 'Work Sans', sans-serif;
   font-size: 1.20rem;
-  font-weight: 400;
 }
 
 .img-research {
@@ -91,11 +94,6 @@
   margin-bottom: 30px;
 }
 
-/* .img-dnkt {
-  margin-top: 35px;
-  margin-bottom: 30px;
-} */
-
 .research-section-dnkt {
   padding-bottom: 3%;
 }
@@ -106,13 +104,10 @@
 }
 
 .manfred-title {
-  font-family: 'Rubik', sans-serif;
-  color: #3D3D46;
   font-size: 2.25rem;
 }
 
 .manfred-p {
-  font-family: 'Work Sans', sans-serif;
   font-size: 1.1rem;
 }
 
@@ -132,20 +127,12 @@
 }
 
 .members-h3 {
-  font-family: 'Rubik', sans-serif;
-  color: #3D3D46;
   text-align: center;
   padding-bottom: 3%;
 }
 
 .member-title {
-  font-family: 'Rubik', sans-serif;
-  color: #3D3D46;
   font-weight: 500;
-}
-
-.member-p {
-  font-family: 'Work Sans', sans-serif;
 }
 
 .alumni-bio {
@@ -157,27 +144,9 @@
   padding: 2% 17% 4%;
 }
 
-.pubs-title {
-  font-family: 'Rubik', sans-serif;
-  color: #3D3D46;
-}
-
-.pubs-text {
-  font-family: 'Work Sans', sans-serif;
-}
-
 /* Contact Page */
 .contact-container, .map-container {
   padding: 2% 17% 3%;
-}
-
-.contact-h3 {
-  font-family: 'Rubik', sans-serif;
-  color: #3D3D46;
-}
-
-.contact-p {
-  font-family: 'Work Sans', sans-serif;
 }
 
 .map-responsive {
@@ -221,7 +190,7 @@
     border: 0;
   }
 
-  .manfred-bio {
+  .manfred-bio, .members-bio, .alumni-bio, .contact-container {
     text-align: center;
   }
 
@@ -230,17 +199,11 @@
   }
 
   .members-bio {
-    text-align: center;
     padding-bottom: 1%;
   }
 
   .alumni-bio {
-    text-align: center;
     padding-bottom: 3%;
-  }
-
-  .contact-container {
-    text-align: center;
   }
 }
 
