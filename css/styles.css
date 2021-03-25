@@ -33,12 +33,12 @@
 
 /* Carousel Section */
 .carousel-section {
-  padding: 2% 14% 1%;
+  padding: 2% 0;
 }
 
 /* Introduction Section  */
 .intro, .news-section {
-  padding: 2% 17%;
+  padding: 2% 4%;
 }
 
 .intro {
@@ -73,7 +73,7 @@
 
 /* Research Page */
 .research-section-cd1, .research-section-nkt, .research-section-invariants, .research-section-dnkt {
-  padding: 1% 17%;
+  padding: 3%;
 }
 
 .toc-item {
@@ -104,7 +104,7 @@
 
 /* People Page */
 .manfred-bio {
-  padding: 1.75% 17%;
+  padding: 1.75%;
 }
 
 .manfred-title {
@@ -127,7 +127,7 @@
 }
 
 .members-bio {
-  padding: 1% 17% 3%;
+  padding: 1% 5%;
 }
 
 .members-h3 {
@@ -140,17 +140,17 @@
 }
 
 .alumni-bio {
-  padding: 1% 17% 4%;
+  padding: 1% 5% 4%;
 }
 
 /* Publications Page */
 .publications-section {
-  padding: 2% 17% 4%;
+  padding: 2% 2% 4%;
 }
 
 /* Contact Page */
 .contact-container, .map-container {
-  padding: 2% 17% 3%;
+  padding: 2% 3%;
 }
 
 .map-responsive {
@@ -159,7 +159,7 @@
 
 /* Links Page */
 .links-container {
-  padding: 1% 17% 3%;
+  padding: 1% 3% 3%;
 }
 
 .links-list {
@@ -223,12 +223,12 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact-img {
     width: 700px;
     height: 100%;
   }
-}
+} */
 
 /* Small devices, tablets, larger phones */
 @media only screen and (min-width: 600px) {
@@ -249,12 +249,49 @@
   .img-logo {
     width: 50%;
   }
+
+  /* .carousel-section {
+    padding: 2% 14% 1%;
+  } */
+
 }
 
 /* Larger Devices */
 @media only screen and (min-width: 992px) {
   .img-logo {
     width: 40%;
+  }
+
+  .intro, .news-section {
+    padding: 2% 17%;
+  }
+
+  .research-section-cd1, .research-section-nkt, .research-section-invariants, .research-section-dnkt {
+    padding: 1% 17%;
+  }
+
+  .manfred-bio {
+    padding: 1.75% 17%;
+  }
+
+  .members-bio {
+    padding: 1% 17% 3%;
+  }
+
+  .alumni-bio {
+    padding: 1% 17% 4%;
+  }
+
+  .publications-section {
+    padding: 2% 17% 4%;
+  }
+
+  .contact-container, .map-container {
+    padding: 2% 17% 3%;
+  }
+
+  .links-container {
+    padding: 1% 17% 3%;
   }
 }
 
